@@ -1,0 +1,1 @@
+# adtech-spec-l10n
