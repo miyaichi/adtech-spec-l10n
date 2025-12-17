@@ -1,0 +1,47 @@
+# Document Translation Configuration
+# このファイルで翻訳対象のドキュメントと設定を管理します
+
+# 処理するドキュメントのリスト
+documents:
+  - name: "Ads.txt-1.1"
+    pdf_file: "Ads.txt-1.1.pdf"
+    output_title: "Ads.txt Specification v1.1 (Japanese Translation)"
+    description: "Ads.txt specification document"
+
+  - name: "Sellers.json_Final"
+    pdf_file: "Sellers.json_Final.pdf"
+    output_title: "Sellers.json Specification (Japanese Translation)"
+    description: "Sellers.json specification document"
+
+# ディレクトリ設定
+directories:
+  raw_pdf: "raw_pdf"
+  intermediate_text: "intermediate/text"
+  intermediate_alignment: "intermediate/alignment"
+  translations: "translations"
+  output: "output"
+  glossary: "glossary"
+
+# 翻訳設定
+translation:
+  system_prompt: "system_prompt.md"
+  glossary_files:
+    - "glossary/rules.md"
+    - "glossary/glossary.md"
+  target_language: "ja"
+
+# PDF処理設定
+pdf_processing:
+  # pdftotextのオプション (-layout, -raw, etc.)
+  pdftotext_options: ""
+  # ノイズ除去パターン（pdf_to_alignment.pyで使用）
+  noise_patterns:
+    - "Page \\d+ of \\d+"
+    - "iab\\.TECH LAB"
+    - "©\\d{4} IAB Technology Laboratory"
+
+# DOCX出力設定
+docx_output:
+  font_name: "Yu Mincho"
+  font_size: 10.5
+  default_bilingual: false

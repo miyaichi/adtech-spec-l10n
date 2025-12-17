@@ -1,0 +1,527 @@
+[
+  {
+    "section": "General",
+    "en": "IAB Tech Lab",
+    "ja": "IAB Tech Lab"
+  },
+  {
+    "section": "General",
+    "en": "Sellers.json July 2019",
+    "ja": "Sellers.json 2019年7月"
+  },
+  {
+    "section": "General",
+    "en": "Abstract As part of a broader effort to eliminate the ability to profit from counterfeit inventory in the open digital advertising ecosystem, Sellers.json provides a mechanism to enable buyers to discover who the entities are that are either direct sellers of or intermediaries in the selling of digital advertising.",
+    "ja": "Abstract (要旨) オープンなデジタル広告エコシステムにおいて偽造在庫から利益を得る能力を排除するための広範な取り組みの一環として、Sellers.jsonは、バイヤーがデジタル広告の直接のセラーまたは販売の仲介者であるエンティティが誰であるかを発見できるようにするメカニズムを提供する。"
+  },
+  {
+    "section": "General",
+    "en": "About IAB Tech Lab The IAB Technology Laboratory is a nonprofit research and development consortium charged with producing and helping companies implement global industry technical standards and solutions. The goal of the Tech Lab is to reduce friction associated with the digital advertising and marketing supply chain while contributing to the safe growth of an industry. The IAB Tech Lab spearheads the development of technical standards, creates and maintains a code library to assist in rapid, cost-effective implementation of IAB standards, and establishes a test platform for companies to evaluate the compatibility of their technology solutions with IAB standards, which for 18 years have been the foundation for interoperability and profitable growth in the digital advertising supply chain. Further details about the IAB Technology Lab can be found at https://iabtechlab.com. License Sellers.json by OpenRTB Working Group is licensed under a Creative Commons Attribution 3.0 License. To view a copy of this license, visit creativecommons.org/licenses/by/3.0/ or write to Creative Commons, 171 Second Street, Suite 300, San Francisco, CA 94105, USA.",
+    "ja": "About IAB Tech Lab (IAB Tech Labについて) IAB Technology Laboratoryは、非営利の研究開発コンソーシアムであり、グローバルな業界技術標準とソリューションの作成と企業による実装を支援する役割を担っている。Tech Labの目標は、デジタル広告とマーケティングのサプライチェーンに関連する摩擦を減らしつつ、業界の安全な成長に貢献することである。IAB Tech Labは、技術標準の開発を主導し、IAB標準の迅速で費用対効果の高い実装を支援するコードライブラリを作成・維持し、企業が自社の技術ソリューションとIAB標準との互換性を評価するためのテストプラットフォームを確立する。IAB標準は18年にわたり、デジタル広告サプライチェーンにおける相互運用性と収益性の高い成長の基盤となってきた。IAB Technology Labの詳細は https://iabtechlab.com を参照されたい。ライセンス：OpenRTB Working GroupによるSellers.jsonは、Creative Commons Attribution 3.0 Licenseに基づいてライセンスされている。このライセンスのコピーを表示するには、creativecommons.org/licenses/by/3.0/ にアクセスするか、Creative Commons, 171 Second Street, Suite 300, San Francisco, CA 94105, USA まで書面で連絡されたい。"
+  },
+  {
+    "section": "General",
+    "en": "Disclaimer THE STANDARDS, THE SPECIFICATIONS, THE MEASUREMENT GUIDELINES, AND ANY OTHER MATERIALS OR SERVICES PROVIDED TO OR USED BY YOU HEREUNDER (THE “PRODUCTS AND SERVICES”) ARE PROVIDED “AS IS” AND “AS AVAILABLE,” AND IAB TECHNOLOGY LABORATORY, INC. (“TECH LAB”) MAKES NO WARRANTY WITH RESPECT TO THE SAME AND HEREBY DISCLAIMS ANY AND ALL EXPRESS, IMPLIED, OR STATUTORY WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AVAILABILITY, ERROR-FREE OR UNINTERRUPTED OPERATION, AND ANY WARRANTIES ARISING FROM A COURSE OF DEALING, COURSE OF PERFORMANCE, OR USAGE OF TRADE. TO THE EXTENT THAT TECH LAB MAY NOT AS A MATTER OF APPLICABLE LAW DISCLAIM ANY IMPLIED WARRANTY, THE SCOPE AND DURATION OF SUCH WARRANTY WILL BE THE MINIMUM PERMITTED UNDER SUCH LAW. THE PRODUCTS AND SERVICES DO NOT CONSTITUTE BUSINESS OR LEGAL ADVICE. TECH LAB DOES NOT WARRANT THAT THE PRODUCTS AND SERVICES PROVIDED TO OR USED BY YOU HEREUNDER SHALL CAUSE YOU AND/OR YOUR PRODUCTS OR SERVICES TO BE IN COMPLIANCE WITH ANY APPLICABLE LAWS, REGULATIONS, OR SELF-REGULATORY FRAMEWORKS,",
+    "ja": "免責事項：規格、仕様書、測定ガイドライン、および本契約に基づき利用者に提供または利用されるその他の資料またはサービス（以下「製品およびサービス」）は、「現状有姿」および「利用可能な状態」で提供されるものであり、IAB TECHNOLOGY LABORATORY, INC.（以下「TECH LAB」）は、これらに関していかなる保証も行わず、商品性、特定目的への適合性、可用性、エラーフリーまたは中断されない動作、および取引過程、履行過程、または商習慣から生じる保証を含むがこれらに限定されない、明示的、黙示的、または制定法上の保証を一切放棄するものとする。TECH LABが適用される法律の問題として黙示的保証を否認できない範囲において、かかる保証の範囲および期間は、かかる法律の下で許容される最小限のものとする。本製品およびサービスは、ビジネス上または法律上のアドバイスを構成するものではない。TECH LABは、本契約に基づき利用者に提供される、または利用者が使用する製品およびサービスが、利用者および/または利用者の製品もしくはサービスを、適用される法律、規制、または自主規制の枠組みに準拠させることを保証しない。"
+  },
+  {
+    "section": "General",
+    "en": "AND YOU ARE SOLELY RESPONSIBLE FOR COMPLIANCE WITH THE SAME, INCLUDING, BUT NOT LIMITED TO, DATA PROTECTION LAWS, SUCH AS THE PERSONAL INFORMATION PROTECTION AND ELECTRONIC DOCUMENTS ACT (CANADA), THE DATA PROTECTION DIRECTIVE (EU), THE E-PRIVACY DIRECTIVE (EU), THE GENERAL DATA PROTECTION REGULATION (EU), AND THE E-PRIVACY REGULATION (EU) AS AND WHEN THEY BECOME EFFECTIVE.",
+    "ja": "また、利用者は、以下を含むがこれらに限定されない法令への準拠に関して単独で責任を負うものとする：個人情報保護および電子文書法（カナダ）、データ保護指令（EU）、eプライバシー指令（EU）、一般データ保護規則（EU）、およびeプライバシー規則（EU）など、これらが発効された場合およびその時点におけるデータ保護法。"
+  },
+  {
+    "section": "General",
+    "en": "Table of Contents Abstract",
+    "ja": "目次 (翻訳省略)"
+  },
+  {
+    "section": "General",
+    "en": "2",
+    "ja": ""
+  },
+  {
+    "section": "General",
+    "en": "About IAB Tech Lab Introduction Change Log",
+    "ja": ""
+  },
+  {
+    "section": "General",
+    "en": "2 3 4",
+    "ja": ""
+  },
+  {
+    "section": "General",
+    "en": "SPECIFICATION ACCESS METHOD FILE FORMAT EXPIRATION Proposed implementation Object specifications Object: Parent Sellers.json object: Identifier Sellers.json object: Seller Enumerated List Specification Identifier Names Sample File Contents",
+    "ja": ""
+  },
+  {
+    "section": "General",
+    "en": "4 4 5 5 6 6 6 7 7 9 9 9",
+    "ja": ""
+  },
+  {
+    "section": "General",
+    "en": "Introduction Ads.txt has been extremely successful in allowing publisher content distributors and app publishers to define who is authorized to sell a given set of impressions (publisher’s advertising inventory) via a bid request. Ads.txt does not, however, make any attempt at revealing the identities of the publisher account IDs within their advertising platform(s) (Publisher's SSPSupply-Side Platform). A published and accessible Sellers.json file allows the identity of the final seller of a bid request to be discovered (assuming that they are ads.txt authorized). It also allows the identities of all",
+    "ja": "Introduction (はじめに) Ads.txtは、パブリッシャーコンテンツディストリビューターやアプリパブリッシャーが、ビッドリクエストを通じて特定のインプレッションセット（パブリッシャーの広告インベントリ）を販売することを誰に許可するかを定義できるようにすることで、極めて大きな成功を収めてきた。しかし、ads.txtは、パブリッシャーの広告プラットフォーム（パブリッシャーのSSP - Supply-Side Platform）内におけるパブリッシャーのアカウントIDの身元を明らかにしようとはしていない。公開されアクセス可能なSellers.jsonファイルにより、ビッドリクエストの最終的なセラー（ads.txtで認証されていると仮定して）の身元を発見することができる。また、以下のすべての身元を発見することも可能にする。"
+  },
+  {
+    "section": "General",
+    "en": "nodes (entities that participated in the bid request) in the SupplyChain object to be discovered. Currently, it is possible for the final seller to be identified via the Publisher.name and Publisher.domain attributes, but in practice, these properties are inconsistently populated by various selling systems. Sellers.json enables smaller bid request object sizes by allowing this information to be looked up and cached “offline” rather than supplied with every bid request. Sellers.json also allows the identification of any and all intermediaries that participated in the selling of a bid request.",
+    "ja": "SupplyChainオブジェクト内のノード（ビッドリクエストに参加したエンティティ）。現在、Publisher.nameおよびPublisher.domain属性によって最終的なセラーを特定することは可能だが、実際には、これらのプロパティはさまざまな販売システムによって一貫性のない形で入力されている。Sellers.jsonは、この情報をビッドリクエストごとに提供するのではなく、「オフライン」で検索しキャッシュできるようにすることで、ビッドリクエストオブジェクトのサイズを小さくすることを可能にする。また、Sellers.jsonは、ビッドリクエストの販売に参加したあらゆる仲介者の識別も可能にする。"
+  },
+  {
+    "section": "General",
+    "en": "Audience Advertising systems, whether they are sellers or buyers of programmatic advertising both benefit from a transparent marketplace where all parties to the transaction are well understood. This document serves to define the information that sellers will provide to both downstream sellers and buyers of programmatic inventory.",
+    "ja": "Audience (想定読者) 広告システムは、プログラマティック広告のセラーであれバイヤーであれ、取引のすべての当事者が十分に理解されている透明なマーケットプレイスから利益を得る。本ドキュメントは、セラーがプログラマティックインベントリの川下のセラーとバイヤーの両方に提供する情報を定義する役割を果たす。"
+  },
+  {
+    "section": "General",
+    "en": "Change Log Version",
+    "ja": "Change Log (変更履歴) バージョン"
+  },
+  {
+    "section": "General",
+    "en": "Date",
+    "ja": "日付"
+  },
+  {
+    "section": "General",
+    "en": "Changes",
+    "ja": "変更点"
+  },
+  {
+    "section": "General",
+    "en": "1.0",
+    "ja": "1.0"
+  },
+  {
+    "section": "General",
+    "en": "July 2019",
+    "ja": "2019年7月"
+  },
+  {
+    "section": "General",
+    "en": "First Version",
+    "ja": "初版"
+  },
+  {
+    "section": "General",
+    "en": "SPECIFICATION This document specifies a mechanism for advertising systems to publicly declare the sellers that they represent and those sellers’ identifiers within their systems. It also describes the format for encoding the instructions to be consumed by advertising systems and their customers.",
+    "ja": "Specification (仕様) 本ドキュメントは、広告システムが、自らが代理するセラーと、システム内におけるそれらのセラーの識別子を公に宣言するためのメカニズムを規定する。また、広告システムとその顧客によって消費される指示をエンコードするためのフォーマットについても記述する。"
+  },
+  {
+    "section": "General",
+    "en": "ACCESS METHOD Advertising systems should post the sellers.json file on their root domain and any subdomains as needed. For the purposes of this document the “root domain” is defined as the “public suffix” plus one string in the name. Crawlers should incorporate Public Suffix list [16] to derive the root domain. The declarations must be accessible via HTTP and/or HTTPS from the website where the instructions are to be applied under a standard relative path on the server host: \"/sellers.json\" and HTTP request header containing \"Content-Type: application/json\". Additionally, you could use \"Content-Type: application/json; charset=utf-8\" to explicitly signal UTF8 support.",
+    "ja": "Access Method (アクセス方法) 広告システムは、ルートドメインおよび必要に応じてサブドメインにsellers.jsonファイルを掲載すべきである。本ドキュメントの目的上、「ルートドメイン」は「パブリックサフィックス」に名前の中の文字列を1つ加えたものとして定義される。クローラーは、ルートドメインを導き出すために、Public Suffix List [16] を組み込むべきである。宣言は、指示を適用するウェブサイトから、サーバーホスト上の標準的な相対パス \"/sellers.json\" と \"Content-Type: application/json\" を含むHTTPリクエストヘッダで、HTTPおよび/またはHTTPS経由でアクセス可能でなければならない。さらに、\"Content-Type: application/json; charset=utf-8\" を使用して、UTF8サポートを明示的に知らせることも可能である。"
+  },
+  {
+    "section": "General",
+    "en": "Also, HTTPS connections over HTTP are preferred when crawling sellers.json files. In any case, where data is available at both an HTTPS and an HTTP connection for the same URL, the data from HTTPS should be preferred. For convenience we will refer to this resource as the \"/sellers.json\" file. Despite the use of the word \"file,\" the resource need not originate from a file system. If the server response indicates Success (HTTP 2xx Status Code,) the advertising system must read the content, parse it, and utilize the declarations. If the server response indicates an HTTP/HTTPS redirect (301, 302, 307 status codes), the advertising system should follow the redirect and consume the data as authoritative for the source of the redirect, if and only if the redirect is within the scope of the original root domain defined as the public suffix plus one string in the name as defined above. Multiple redirects are valid as long as each redirect location remains within the original root domain. For example an HTTP to HTTPS redirect within the same root domain is valid. Only a single HTTP redirect to a destination outside the original root domain is allowed to facilitate one-hop delegation of authority to a third party's web server domain. If the third party location returns a redirect, then the advertising system should treat the response as an error. A future version may address other delegation of authority to a third-party web server, but for now redirects to a third-party web server and any other redirect should be interpreted as an error and ignored. If the server response indicates the resource does not exist (HTTP Status Code 404) or for any other HTTP error, the last successfully retrieved data set should be utilized.",
+    "ja": "また、sellers.jsonファイルをクロールする際には、HTTPよりもHTTPS接続を優先することが望ましい。いずれの場合も、同じURLに対してHTTPS接続とHTTP接続の両方でデータが利用できる場合は、HTTPSからのデータを優先すべきである。便宜上、このリソースを \"/sellers.json\" ファイルと呼ぶことにする。「ファイル」という言葉を使用しているが、リソースはファイルシステムに由来する必要はない。サーバーレスポンスがSuccess（HTTP 2xx ステータスコード）を示す場合、広告システムはコンテンツを読み取り、解析し、宣言を利用しなければならない。サーバーレスポンスがHTTP/HTTPSリダイレクト（301、302、307ステータスコード）を示す場合、広告システムはリダイレクトに従い、リダイレクト先が上記で定義された「パブリックサフィックス＋名前の1文字列」として定義された元のルートドメインの範囲内にある場合に限り、データをリダイレクト元の信頼できる情報として使用すべきである。各リダイレクト先が元のルートドメイン内にある限り、複数のリダイレクトは有効である。例えば、同じルートドメイン内でのHTTPからHTTPSへのリダイレクトは有効である。サードパーティのウェブサーバードメインへのワンホップ権限委譲を容易にするために、元のルートドメイン外の宛先への単一のHTTPリダイレクトのみが許可される。サードパーティのロケーションがリダイレクトを返す場合、広告システムはその応答をエラーとして扱うべきである。将来のバージョンでは、サードパーティのウェブサーバーへの他の権限委譲に対応する可能性があるが、現時点では、サードパーティのウェブサーバーへのリダイレクトおよびその他のいかなるリダイレクトもエラーとして解釈し、無視すべきである。サーバーレスポンスがリソースが存在しないことを示す場合（HTTPステータスコード404）、またはその他のHTTPエラーの場合、最後に正常に取得されたデータセットを利用すべきである。"
+  },
+  {
+    "section": "General",
+    "en": "FILE FORMAT All data in the file is serialized using JSON (JavaScript Object Notation). The parent JSON object and all child objects are written to the sellers.json file.",
+    "ja": "File Format (ファイルフォーマット) ファイル内のすべてのデータは、JSON（JavaScript Object Notation）を使用してシリアライズされる。親JSONオブジェクトとすべての子オブジェクトは、sellers.jsonファイルに書き込まれる。"
+  },
+  {
+    "section": "General",
+    "en": "EXPIRATION Consuming systems of /sellers.json should cache the files, but if they do they must periodically verify the cached copy is fresh before using its contents. Standard HTTP cache-control mechanisms can be used by both origin server and robots to influence the caching of the /sellers.json file. Specifically consumers and replicators should take note of HTTP Expires header set by the origin server. If no cache-control directives are present, consuming systems should default to an expiry of 7 days.",
+    "ja": "Expiration (有効期限) /sellers.json を利用するシステムはファイルをキャッシュすべきであるが、そうする場合、その内容を使用する前にキャッシュされたコピーが最新であることを定期的に検証しなければならない。オリジンサーバーとロボットの両方が /sellers.json ファイルのキャッシングに影響を与えるために、標準的なHTTPキャッシュ制御メカニズムを使用できる。具体的には、コンシューマーとレプリケーターは、オリジンサーバーによって設定された HTTP Expires ヘッダに注意すべきである。キャッシュ制御ディレクティブが存在しない場合、利用システムはデフォルトで7日間の有効期限を設定すべきである。"
+  },
+  {
+    "section": "General",
+    "en": "Implementation Every advertising system listed in an ads.txt file and any advertising system that is referenced from a SupplyChain object node should publish a Sellers.json file at the following location: http://{advertising_system_domain}/sellers.json",
+    "ja": "Implementation (実装) ads.txtファイルにリストされたすべての広告システム、およびSupplyChainオブジェクトノードから参照されるすべての広告システムは、以下の場所にSellers.jsonファイルを公開すべきである： http://{advertising_system_domain}/sellers.json"
+  },
+  {
+    "section": "General",
+    "en": "Object specifications Object: Parent The Parent object is the top-level object of a Sellers.json file. It is a container for all properties in a sellers.json file.",
+    "ja": "Object Specifications (オブジェクト仕様) Object: Parent Parentオブジェクトは、Sellers.jsonファイルの最上位オブジェクトである。これは sellers.json ファイル内のすべてのプロパティのコンテナである。"
+  },
+  {
+    "section": "General",
+    "en": "Attribute",
+    "ja": "属性"
+  },
+  {
+    "section": "General",
+    "en": "Type",
+    "ja": "型"
+  },
+  {
+    "section": "General",
+    "en": "Description",
+    "ja": "説明"
+  },
+  {
+    "section": "General",
+    "en": "sellers",
+    "ja": "sellers"
+  },
+  {
+    "section": "General",
+    "en": "object array; required",
+    "ja": "オブジェクト配列; 必須"
+  },
+  {
+    "section": "General",
+    "en": "The list of all Seller objects that are represented by the advertising system. All sellers must be included even if they are confidential.",
+    "ja": "広告システムによって表されるすべてのSellerオブジェクトのリスト。機密（confidential）であっても、すべてのセラーを含めなければならない。"
+  },
+  {
+    "section": "General",
+    "en": "identifiers",
+    "ja": "identifiers"
+  },
+  {
+    "section": "General",
+    "en": "object array; optional",
+    "ja": "オブジェクト配列; オプション"
+  },
+  {
+    "section": "General",
+    "en": "Array of Identifier objects associated with this advertising system. Examples could be TAG-Ids, Dun & Bradstreet business identifiers, or any custom identifier that a consuming advertising system might need.",
+    "ja": "この広告システムに関連付けられたIdentifierオブジェクトの配列。例としては、TAG-ID、Dun & Bradstreetのビジネス識別子、あるいは利用する広告システムが必要とする任意のカスタム識別子などがある。"
+  },
+  {
+    "section": "General",
+    "en": "contact_email",
+    "ja": "contact_email"
+  },
+  {
+    "section": "General",
+    "en": "string; optional",
+    "ja": "文字列; オプション"
+  },
+  {
+    "section": "General",
+    "en": "An email address to use to contact the Advertising System for questions or inquiries about this file.",
+    "ja": "このファイルに関する質問や問い合わせのために、広告システムに連絡するための電子メールアドレス。"
+  },
+  {
+    "section": "General",
+    "en": "contact_address",
+    "ja": "contact_address"
+  },
+  {
+    "section": "General",
+    "en": "string; optional",
+    "ja": "文字列; オプション"
+  },
+  {
+    "section": "General",
+    "en": "The business address of the advertising system.",
+    "ja": "広告システムのビジネス上の住所。"
+  },
+  {
+    "section": "General",
+    "en": "version",
+    "ja": "version"
+  },
+  {
+    "section": "General",
+    "en": "string; required",
+    "ja": "文字列; 必須"
+  },
+  {
+    "section": "General",
+    "en": "The version of this spec, currently the only valid value is 1.0.",
+    "ja": "本仕様のバージョン。現在有効な値は1.0のみである。"
+  },
+  {
+    "section": "General",
+    "en": "ext",
+    "ja": "ext"
+  },
+  {
+    "section": "General",
+    "en": "object; optional",
+    "ja": "オブジェクト; オプション"
+  },
+  {
+    "section": "General",
+    "en": "Placeholder for advertising-system specific extensions to this object.",
+    "ja": "このオブジェクトに対する広告システム固有の拡張のためのプレースホルダー。"
+  },
+  {
+    "section": "General",
+    "en": "Sellers.json object: Identifier An identifier is an arbitrary name/value pair that is used to communicate common values such as business identifiers, certification identifiers, or any other identifier that a consuming system might need to better interoperate with the seller. Standard Identifiers are listed in the section Identifier Names below. Attribute",
+    "ja": "Sellers.json object: Identifier 識別子（Identifier）は、ビジネス識別子、認証識別子、あるいは利用システムがセラーとの相互運用性を高めるために必要となるその他の識別子など、共通の値を伝達するために使用される任意の名前/値のペアである。標準的な識別子は、以下のIdentifier Namesセクションに記載されている。"
+  },
+  {
+    "section": "General",
+    "en": "Type",
+    "ja": "型"
+  },
+  {
+    "section": "General",
+    "en": "Description",
+    "ja": "説明"
+  },
+  {
+    "section": "General",
+    "en": "name",
+    "ja": "name"
+  },
+  {
+    "section": "General",
+    "en": "string; required",
+    "ja": "文字列; 必須"
+  },
+  {
+    "section": "General",
+    "en": "The description of the identifier",
+    "ja": "識別子の説明"
+  },
+  {
+    "section": "General",
+    "en": "value",
+    "ja": "value"
+  },
+  {
+    "section": "General",
+    "en": "string; required",
+    "ja": "文字列; 必須"
+  },
+  {
+    "section": "General",
+    "en": "The value of the identifier",
+    "ja": "識別子の値"
+  },
+  {
+    "section": "General",
+    "en": "Sellers.json object: Seller The identification of the selling legal entity that is paid for inventory sold on behalf of seller_id. It is invalid for a seller_id to represent multiple entities. Every seller_id must map to only a single entity that is paid for inventory transacted with that seller_id. It is valid for a selling entity to have multiple seller_ids within an advertising system. Attribute",
+    "ja": "Sellers.json object: Seller seller_id を代表して販売されたインベントリに対して支払いを受ける販売法人（legal entity）の識別。1つの seller_id が複数のエンティティを表すことは無効である。すべての seller_id は、その seller_id で取引されたインベントリに対して支払いを受ける単一のエンティティにのみマッピングされなければならない。広告システム内で、1つの販売エンティティが複数の seller_id を持つことは有効である。"
+  },
+  {
+    "section": "General",
+    "en": "Type",
+    "ja": "型"
+  },
+  {
+    "section": "General",
+    "en": "Description",
+    "ja": "説明"
+  },
+  {
+    "section": "General",
+    "en": "seller_id",
+    "ja": "seller_id"
+  },
+  {
+    "section": "General",
+    "en": "string; required",
+    "ja": "文字列; 必須"
+  },
+  {
+    "section": "General",
+    "en": "This is the same ID that appears in an ads.txt file and in the SupplyChain.nodes array sid property. In most cases will also appear in the Publisher.Id property of an OpenRTB request.",
+    "ja": "これは、ads.txtファイルおよびSupplyChain.nodes配列のsidプロパティに表示されるのと同じIDである。ほとんどの場合、OpenRTBリクエストのPublisher.Idプロパティにも表示される。"
+  },
+  {
+    "section": "General",
+    "en": "is_confidential",
+    "ja": "is_confidential"
+  },
+  {
+    "section": "General",
+    "en": "integer; optional, default 0",
+    "ja": "整数; オプション, デフォルト 0"
+  },
+  {
+    "section": "General",
+    "en": "Indicates whether the identity of the seller is confidential, where 0 = is not confidential and 1 = is confidential.",
+    "ja": "セラーの身元が機密であるかどうかを示す。0 = 機密ではない、1 = 機密である。"
+  },
+  {
+    "section": "General",
+    "en": "seller_type",
+    "ja": "seller_type"
+  },
+  {
+    "section": "General",
+    "en": "string; required",
+    "ja": "文字列; 必須"
+  },
+  {
+    "section": "General",
+    "en": "An enumeration of the type of account, either PUBLISHER, INTERMEDIARY, or BOTH. A value of \"PUBLISHER\" indicates that the inventory sold through this account is on a site, app, or other medium owned by the named entity and the advertising system pays them directly. A value of “INTERMEDIARY\" indicates that the inventory sold through this account is not owned by the named entity or the advertising system does not pay them directly. 'BOTH' indicates that",
+    "ja": "アカウントの種類（PUBLISHER、INTERMEDIARY、または BOTH）の列挙。「PUBLISHER」の値は、このアカウントを通じて販売されるインベントリが、指定されたエンティティが所有するサイト、アプリ、またはその他の媒体上にあり、広告システムが彼らに直接支払うことを示す。「INTERMEDIARY」の値は、このアカウントを通じて販売されたインベントリが指定されたエンティティによって所有されていないか、または広告システムが彼らに直接支払っていないことを示す。「BOTH」は、"
+  },
+  {
+    "section": "General",
+    "en": "both types of inventory are transacted by this seller. Note that this field should be treated as case insensitive when interpreting the data. is_passthrough",
+    "ja": "両方のタイプのインベントリがこのセラーによって取引されていることを示す。データを解釈する際、このフィールドは大文字と小文字を区別しないものとして扱うべきであることに注意すること。"
+  },
+  {
+    "section": "General",
+    "en": "integer; optional, default 0",
+    "ja": "is_passthrough (整数; オプション, デフォルト 0)"
+  },
+  {
+    "section": "General",
+    "en": "A passthrough seller is a facilitator of inventory from the upstream supplier to the consumer of the inventory. The upstream supplier and consumer must establish a business relationship with each other such that the upstream supplier has control of their account within the consumer’s platform. A value of 1 indicates the following: This seller has an account control relationship with the downstream/consuming advertising system. If this seller is the last link in a SupplyChain, the buying system has to have established an account control relationship with this seller to transact the seller’s inventory. If this is not the last link in a SupplyChain than this seller should exist between two entities that have an account control relationship. A value of 0 indicates: The downstream/consuming advertising system has no account control relationship with this seller.",
+    "ja": "パススルーセラーとは、上流サプライヤーからインベントリの消費者（Consumer）へのインベントリを促進する役割を担うものである。上流サプライヤーと消費者は、上流サプライヤーが消費者のプラットフォーム内で自身のアカウントを管理できるようなビジネス関係を確立しなければならない。値が1の場合は以下を示す：このセラーは、川下/消費広告システムとアカウント管理関係を持っている。このセラーがサプライチェーンの最後のリンクである場合、購入システムはこのセラーのインベントリを取引するために、このセラーとアカウント管理関係を確立していなければならない。これがサプライチェーンの最後のリンクでない場合、このセラーはアカウント管理関係を持つ2つのエンティティの間に存在すべきである。値が0の場合は以下を示す：川下/消費広告システムは、このセラーとの間にアカウント管理関係を持たない。"
+  },
+  {
+    "section": "General",
+    "en": "name",
+    "ja": "name"
+  },
+  {
+    "section": "General",
+    "en": "string; required when is_confidential=0",
+    "ja": "文字列; is_confidential=0 の場合必須"
+  },
+  {
+    "section": "General",
+    "en": "The name of the company (the legal entity) that is paid for inventory that is transacted under the given seller_id. Can be omitted only when is_confidential is set to 1.",
+    "ja": "指定された seller_id の下で取引されたインベントリの代金を支払われる会社（法人）の名前。is_confidential が1に設定されている場合のみ省略可能。"
+  },
+  {
+    "section": "General",
+    "en": "domain",
+    "ja": "domain"
+  },
+  {
+    "section": "General",
+    "en": "string; required if seller has a web presence and is_confidential=0",
+    "ja": "文字列; セラーがウェブプレゼンスを持ち、かつ is_confidential=0 の場合必須"
+  },
+  {
+    "section": "General",
+    "en": "The business domain name of the company (the legal entity) that is paid for inventory that is transacted under the given seller_id. When the seller_type property is set to INTERMEDIARY or BOTH, this should be the root domain name of the seller’s Sellers.json file. Can be omitted when is_confidential is set to 1 or when the seller doesn’t have a web presence.",
+    "ja": "指定された seller_id の下で取引されるインベントリに対して支払いを受ける会社（法人）のビジネスドメイン名。seller_type プロパティが INTERMEDIARY または BOTH に設定されている場合、これはセラーのSellers.jsonファイルのルートドメイン名であるべきである。is_confidential が1に設定されている場合、またはセラーがウェブプレゼンスを持っていない場合は省略できる。"
+  },
+  {
+    "section": "General",
+    "en": "comment",
+    "ja": "comment"
+  },
+  {
+    "section": "General",
+    "en": "string; optional",
+    "ja": "文字列; オプション"
+  },
+  {
+    "section": "General",
+    "en": "Any helpful description for this inventory. It is useful for sellers that have multiple seller ids to describe what this seller_id represents.",
+    "ja": "このインベントリに関する有用な説明。複数の seller_id を持つセラーにとって、この seller_id が何を表しているかを説明するのに便利である。"
+  },
+  {
+    "section": "General",
+    "en": "ext",
+    "ja": "ext"
+  },
+  {
+    "section": "General",
+    "en": "object; optional",
+    "ja": "オブジェクト; オプション"
+  },
+  {
+    "section": "General",
+    "en": "Placeholder for advertising-system specific extensions to this object.",
+    "ja": "このオブジェクトに対する広告システム固有の拡張のためのプレースホルダー。"
+  },
+  {
+    "section": "General",
+    "en": "Note that domain in sellers.json and SupplyChain are to be populated with only the root domain and not a full URL, much like ‘domain’ in OpenRTB’s Site object and the domain definition used for ads.txt. For the purposes of this document the “root domain” is defined as the “public suffix” plus one string in the name. Implementers should incorporate Public Suffix list [16] to derive the root domain.",
+    "ja": "sellers.json および SupplyChain における domain は、OpenRTBのSiteオブジェクトにおける「domain」や ads.txt で使用されるドメイン定義と同様に、完全なURLではなくルートドメインのみを入力することに注意すること。本ドキュメントの目的上、「ルートドメイン」は「パブリックサフィックス」に名前の中の文字列を1つ加えたものとして定義される。実装者は、ルートドメインを導き出すために、Public Suffix List [16] を組み込むべきである。"
+  },
+  {
+    "section": "General",
+    "en": "Enumerated List Specification Identifier Names The following list defines standard identifiers that should be used in the identifier list. Name",
+    "ja": "Enumerated List Specification (列挙型リストの仕様) Identifier Names 以下のリストは、識別子リストで使用すべき標準的な識別子を定義している。"
+  },
+  {
+    "section": "General",
+    "en": "Description",
+    "ja": "説明"
+  },
+  {
+    "section": "General",
+    "en": "TAG-ID",
+    "ja": "TAG-ID"
+  },
+  {
+    "section": "General",
+    "en": "Trustworthy Accountability Group ID",
+    "ja": "Trustworthy Accountability Group ID"
+  },
+  {
+    "section": "General",
+    "en": "DUNS",
+    "ja": "DUNS"
+  },
+  {
+    "section": "General",
+    "en": "Dun & Bradstreet DUNS Number",
+    "ja": "Dun & Bradstreet DUNS Number"
+  },
+  {
+    "section": "General",
+    "en": "Sample File Contents {",
+    "ja": "Sample File Contents (ファイル内容のサンプル) {"
+  },
+  {
+    "section": "General",
+    "en": "\"contact_email\": \"adops@advertisingsystem.com\", \"contact_address\": \"Advertising System Inc., 101 Main Street, New York, NY 10101\", \"version\": \"1.0\", \"identifiers\": [ { \"name\": \"TAG-ID\", \"value\": \"28cb65e5bbc0bd5f\" } ], \"sellers\": [ { \"seller_id\": \"1942009976\", \"name\": \"Publisher1\", \"domain\": \"publisher1.com\", \"seller_type\": \"PUBLISHER” }, { \"seller_id\": \"1397382429\", \"name\": \"Exchange1\", \"domain\": \"exchange1.com\", \"seller_type\": \"INTERMEDIARY\" }, { \"seller_id\": \"20000000\", \"name\": \"Seller And Intermediary, Inc\",",
+    "ja": "\"contact_email\": \"adops@advertisingsystem.com\", \"contact_address\": \"Advertising System Inc., 101 Main Street, New York, NY 10101\", \"version\": \"1.0\", \"identifiers\": [ { \"name\": \"TAG-ID\", \"value\": \"28cb65e5bbc0bd5f\" } ], \"sellers\": [ { \"seller_id\": \"1942009976\", \"name\": \"Publisher1\", \"domain\": \"publisher1.com\", \"seller_type\": \"PUBLISHER” }, { \"seller_id\": \"1397382429\", \"name\": \"Exchange1\", \"domain\": \"exchange1.com\", \"seller_type\": \"INTERMEDIARY\" }, { \"seller_id\": \"20000000\", \"name\": \"Seller And Intermediary, Inc\","
+  },
+  {
+    "section": "General",
+    "en": "\"domain\": \"sellerandintermediary.com\", \"seller_type\": \"PUBLISHER\", \"comment\": \"NorthAmerica O&O inventory\"",
+    "ja": "\"domain\": \"sellerandintermediary.com\", \"seller_type\": \"PUBLISHER\", \"comment\": \"NorthAmerica O&O inventory\""
+  },
+  {
+    "section": "General",
+    "en": "}, {",
+    "ja": "}, {"
+  },
+  {
+    "section": "General",
+    "en": "\"seller_id\": \"20000001\", \"name\": \"Seller And Intermediary, Inc\", \"domain\": \"sellerandintermediary.com\", \"seller_type\": \"PUBLISHER\", \"comment\": \"APAC O&O inventory\"",
+    "ja": "\"seller_id\": \"20000001\", \"name\": \"Seller And Intermediary, Inc\", \"domain\": \"sellerandintermediary.com\", \"seller_type\": \"PUBLISHER\", \"comment\": \"APAC O&O inventory\""
+  },
+  {
+    "section": "General",
+    "en": "}, {",
+    "ja": "}, {"
+  },
+  {
+    "section": "General",
+    "en": "\"seller_id\": \"20000002\", \"name\": \"Seller And Intermediary, Inc\", \"domain\": \"sellerandintermediary.com\", \"seller_type\": \"INTERMEDIARY\", \"comment\": \"Non O&O inventory\"",
+    "ja": "\"seller_id\": \"20000002\", \"name\": \"Seller And Intermediary, Inc\", \"domain\": \"sellerandintermediary.com\", \"seller_type\": \"INTERMEDIARY\", \"comment\": \"Non O&O inventory\""
+  },
+  {
+    "section": "General",
+    "en": "}, {",
+    "ja": "}, {"
+  },
+  {
+    "section": "General",
+    "en": "\"seller_id\": \"101010101\", \"name\": \"Hybrid Seller\", \"domain\": \"hybridseller.com\", \"seller_type\": \"BOTH\", \"comment\": \"Sells both O&O and other sellers' inventory\"",
+    "ja": "\"seller_id\": \"101010101\", \"name\": \"Hybrid Seller\", \"domain\": \"hybridseller.com\", \"seller_type\": \"BOTH\", \"comment\": \"Sells both O&O and other sellers' inventory\""
+  },
+  {
+    "section": "General",
+    "en": "}, {",
+    "ja": "}, {"
+  },
+  {
+    "section": "General",
+    "en": "\"seller_id\": \"00000001\", \"seller_type\": \"INTERMEDIARY\", \"is_confidential\": 1",
+    "ja": "\"seller_id\": \"00000001\", \"seller_type\": \"INTERMEDIARY\", \"is_confidential\": 1"
+  },
+  {
+    "section": "General",
+    "en": "}, {",
+    "ja": "}, {"
+  },
+  {
+    "section": "General",
+    "en": "\"seller_id\": \"EB_0001\", \"name\": \"Passthrough Publisher\", \"domain\": \"passthroughpublisher.com\", \"seller_type\": \"PUBLISHER\", \"is_passthrough\": 1, \"comment\": \"direct buyer/seller of this inventory must establish an account relationship with Passthrough Publisher\" } ] }",
+    "ja": "\"seller_id\": \"EB_0001\", \"name\": \"Passthrough Publisher\", \"domain\": \"passthroughpublisher.com\", \"seller_type\": \"PUBLISHER\", \"is_passthrough\": 1, \"comment\": \"direct buyer/seller of this inventory must establish an account relationship with Passthrough Publisher\" } ] }"
+  }
+]

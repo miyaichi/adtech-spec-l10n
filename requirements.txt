@@ -1,0 +1,8 @@
+# Python依存パッケージ
+# インストール: pip install -r requirements.txt
+
+# DOCX生成用
+python-docx>=1.1.0
+
+# 将来的なYAML設定の読み込み用（オプション）
+# PyYAML>=6.0
